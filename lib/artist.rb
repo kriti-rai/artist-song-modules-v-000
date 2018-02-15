@@ -1,8 +1,7 @@
 require 'pry'
 
 class Artist
-  extend::reset_all
-  extend::count
+  extend:: ClassMethods
 
   attr_accessor :name
   attr_reader :songs
